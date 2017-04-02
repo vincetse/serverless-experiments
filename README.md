@@ -80,7 +80,7 @@ $ curl https://sfh62fps2c.execute-api.us-east-1.amazonaws.com/dev/uuid?n=3
 
 1. [Python Serverless Microframework for AWS (aka Chalice)][Chalice]
 1. [Serverless][Serverless]
-1. [Python Serverless Microframework for AWS (aka Chalice)][Chalice]
+1. [Zappa][Zappa]
 
 
 [Chalice]: https://github.com/awslabs/chalice
