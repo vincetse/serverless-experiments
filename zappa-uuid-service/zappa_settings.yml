@@ -1,0 +1,11 @@
+---
+dev:
+  project_name: "zappa-uuid-service"
+  apigateway_enabled: true
+  apigateway_description: "Zappa ID Service"
+  app_function: "app.app"
+  keep_warm: false
+  log_level: "DEBUG"
+  manage_roles: true
+  memory_size: 128
+  s3_bucket: "zappa-kc7d4xidt"
