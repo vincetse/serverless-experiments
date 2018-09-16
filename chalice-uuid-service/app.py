@@ -14,8 +14,11 @@ def get_uuid():
     import uuid
     n = 1
     qs = app.current_request.query_params
-    if "n" in qs:
-        n = int(qs["n"])
+    try:
+        if "n" in qs:
+            n = int(qs["n"])
+    except TypeError:
+        pass
     uuids = []
     for i in xrange(n):
         uuids.append(str(uuid.uuid4()))

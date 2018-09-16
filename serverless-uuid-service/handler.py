@@ -3,8 +3,11 @@ import json
 def get_uuid(event, context):
     import uuid
     n = 1
-    if "n" in event["queryStringParameters"]:
-        n = int(event["queryStringParameters"]["n"])
+    try:
+        if "queryStringParameters" in event and "n" in event["queryStringParameters"]:
+            n = int(event["queryStringParameters"]["n"])
+    except TypeError:
+        pass
     uuids = []
     for i in xrange(n):
         uuids.append(str(uuid.uuid4()))
