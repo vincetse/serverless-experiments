@@ -1,6 +1,6 @@
 argcomplete==1.9.3
-boto3==1.9.130
-botocore==1.12.130
+boto3==1.9.136
+botocore==1.12.136
 certifi==2019.3.9
 cfn-flip==1.2.0
 chardet==3.0.4
@@ -30,7 +30,7 @@ toml==0.10.0
 tqdm==4.19.1
 troposphere==2.4.6
 Unidecode==1.0.23
-urllib3==1.24.1
+urllib3==1.24.2
 uuid==1.30
 Werkzeug==0.15.2
 wsgi-request-logger==0.4.6
