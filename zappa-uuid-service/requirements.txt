@@ -7,7 +7,7 @@ chardet==3.0.4
 Click==7.0
 docutils==0.14
 durationpy==0.5
-Flask==1.0.2
+Flask==2.2.5
 future==0.18.3
 futures==3.2.0
 hjson==3.0.1
