@@ -1,6 +1,6 @@
 attrs==17.4.0
 botocore==1.12.136
-certifi==2019.3.9
+certifi==2022.12.7
 chalice==1.8.0
 chardet==3.0.4
 Click==7.0
