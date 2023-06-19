@@ -1,6 +1,5 @@
 from chalice import Chalice
 from chalice.app import Response
-import urlparse
 
 app = Chalice(app_name='chalice-uuid-service')
 
@@ -20,7 +19,7 @@ def get_uuid():
     except TypeError:
         pass
     uuids = []
-    for i in xrange(n):
+    for i in range(n):
         uuids.append(str(uuid.uuid4()))
     body = {
         "uuid": uuids
