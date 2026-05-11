@@ -30,7 +30,7 @@ toml==0.10.0
 tqdm==4.66.3
 troposphere==2.4.6
 Unidecode==1.0.23
-urllib3==2.6.3
+urllib3==2.7.0
 uuid==1.30
 Werkzeug==3.1.6
 wsgi-request-logger==0.4.6
